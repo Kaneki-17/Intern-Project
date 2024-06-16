@@ -199,7 +199,7 @@ public class QuizActivty extends AppCompatActivity {
                 correctAnswers++;
             }
         }
-        int score = (correctAnswers / (int) questions.size()) * 10;
+        float score = (correctAnswers / (float) questions.size()) * 10;
 
         // Reset the timer back to its original duration
         rtime = TOTAL_TIME;
