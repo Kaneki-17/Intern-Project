@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "choices": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "choices": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "choices": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "Jane Austen"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "choices": ["0", "1", "2", "3"],
+      "answer": "2"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "choices": ["Oxygen", "Gold", "Silver", "Iron"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "What is the speed of light?",
+      "choices": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+      "answer": "300,000 km/s"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "choices": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "choices": ["Gold", "Iron", "Diamond", "Platinum"],
+      "answer": "Diamond"
+    },
+    {
+      "question": "What is the most widely spoken language in the world?",
+      "choices": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+      "answer": "Mandarin Chinese"
+    }
+  ]
+}

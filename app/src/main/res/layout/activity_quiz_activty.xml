@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".QuizActivty"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <FrameLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#03A9F4"
+        >
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Time Remaining : 10:00 mins "
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:fontFamily="@font/abril_fatface"
+        android:textColor="@color/white"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/countdown"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#00BCD4"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/question"
+            android:fontFamily="@font/abril_fatface"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+        />
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/choices"
+            android:layout_marginTop="15dp"
+            >
+        </RadioGroup>
+
+
+        <Button
+            android:text="Next"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abril_fatface"
+            android:background="#86424242"
+            android:id="@+id/next"
+            />
+
+
+
+    </LinearLayout>
+
+
+    </FrameLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
